@@ -6,11 +6,12 @@ const CACHE_NAME = `period-tracker-${VERSION}`;
 
 // The static resources that the app needs to function.
 const APP_STATIC_RESOURCES = [
-  "/",
-  "/index.html",
-  "/app.js",
-  "/style.css",
-  "/icons/wheel.svg",
+  "./",
+  "./index.html",
+  "./app.js",
+  "./style.css",
+  "./icons/wheel.svg",
+  "./cycletracker.json",
 ];
 
 // On install, cache the static resources
